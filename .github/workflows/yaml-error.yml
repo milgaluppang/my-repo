@@ -1,7 +1,0 @@
-name: YAML error
-on: push
-jobs:
-  run:
-    runs-on: ubuntu-latest
-      steps:    # 들여쓰기를 두 칸 더했다.
-      - run: echo "YAML Syntax Error"
